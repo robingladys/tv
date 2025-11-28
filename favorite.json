@@ -1,1 +1,139 @@
-
+{
+  "version": "1.0",
+  "exportDate": "2025-11-28T16:38:15.105Z",
+  "totalFavorites": 22,
+  "favorites": [
+    {
+      "name": "INDOSIAR",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/indosiar.png",
+      "group": "LOKAL ID",
+      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8"
+    },
+    {
+      "name": "SCTV",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/sctv.png",
+      "group": "LOKAL ID",
+      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8?app_type=web&userid=lite&chname=sctv"
+    },
+    {
+      "name": "BTV",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/btv.png",
+      "group": "LOKAL ID",
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h210/02.m3u8"
+    },
+    {
+      "name": "TV ONE",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/tvone.png",
+      "group": "LOKAL ID",
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h40/01.m3u8"
+    },
+    {
+      "name": "GARUDA TV",
+      "logo": "http://adp-premium.my.id/logo/garuda.jpg",
+      "group": "LOKAL ID",
+      "url": "https://adptv2.mediaflow.workers.dev/garudatv/s/s123/garudatvlivestreaming.m3u8"
+    },
+    {
+      "name": "TVRI",
+      "logo": "http://adp-premium.my.id/logo/tvri.jpg",
+      "group": "LOKAL ID",
+      "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8"
+    },
+    {
+      "name": "KompasTV",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/kompastv.png",
+      "group": "LOKAL ID",
+      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h234/index.m3u8"
+    },
+    {
+      "name": "NusantaraTV",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/nusantaratv.png",
+      "group": "LOKAL ID",
+      "url": "https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8"
+    },
+    {
+      "name": "MOJITV",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/moji.png",
+      "group": "LOKAL ID",
+      "url": "https://wahyu1ptv.pages.dev/Moji-HD.m3u8"
+    },
+    {
+      "name": "RTV d",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/rtv.png",
+      "group": "LOKAL ID",
+      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h10/index.m3u8"
+    },
+    {
+      "name": "INSPIRA TV",
+      "logo": "https://raw.githubusercontent.com/Tonisupendi/Logo1/refs/heads/main/20250818_170141.png",
+      "group": "DAERAH",
+      "url": "https://inspiratv.siar.us/inspiratv/live/playlist.m3u8"
+    },
+    {
+      "name": "Banten TV",
+      "logo": "http://adp-premium.my.id/logo/bantentv.jpg",
+      "group": "DAERAH",
+      "url": "https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8?checkedby:iptvcat.com"
+    },
+    {
+      "name": "Dhamma TV",
+      "logo": "http://adp-premium.my.id/logo/dhamatv.jpg",
+      "group": "DAERAH",
+      "url": "https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8"
+    },
+    {
+      "name": "JOWO CHANNEL",
+      "logo": "http://adp-premium.my.id/logo/jowo.jpg",
+      "group": "DAERAH",
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8"
+    },
+    {
+      "name": "Bandung TV",
+      "logo": "http://adp-premium.my.id/logo/bandungtv.jpg",
+      "group": "DAERAH",
+      "url": "http://202.150.153.254:443/bandungtvWEBSITE.m3u8"
+    },
+    {
+      "name": "Madu TV",
+      "logo": "http://adp-premium.my.id/logo/madutv.jpg",
+      "group": "DAERAH",
+      "url": "https://re1.siar.us/madutv/hd720/playlist.m3u8"
+    },
+    {
+      "name": "Balikpapan TV",
+      "logo": "http://adp-premium.my.id/logo/balikpapantv.jpg",
+      "group": "DAERAH",
+      "url": "https://5bf7b725107e5.streamlock.net/btv/btv/playlist.m3u8"
+    },
+    {
+      "name": "JAMBI TV",
+      "logo": "http://adp-premium.my.id/logo/jambitv.jpg",
+      "group": "DAERAH",
+      "url": "https://ams.juraganstreaming.com:5443/JambiTV/streams/livestream.m3u8"
+    },
+    {
+      "name": "ONE",
+      "logo": "http://adp-premium.my.id/logo/axn/2.jpg",
+      "group": "MOVIES",
+      "url": "http://202.80.222.20/cdn/iptv/Tvod/001/channel2000123/1024.m3u8"
+    },
+    {
+      "name": "MYKIDS",
+      "logo": "http://adp-premium.my.id/logo/kids.jpg",
+      "group": "KIDS",
+      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h191/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=My_Kidz_HD|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36&referrer=http://www.dens.tv/"
+    },
+    {
+      "name": "FIFA+ English",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/700px-FIFA%2B_(2025).svg.png",
+      "group": "SPORTS",
+      "url": "https://adptv.mediaflow.workers.dev/stream.m3u8?id=19046"
+    },
+    {
+      "name": "Tennis Channel",
+      "logo": "https://i.imgur.com/tsljAnY.png",
+      "group": "SPORTS",
+      "url": "https://adptv1.mediaflow.workers.dev/stream.m3u8?id=18111"
+    }
+  ]
+}
