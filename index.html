@@ -1,1 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player IPTV</title>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/robingladys/tv/refs/heads/main/s.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <button class="toggle-sidebar" id="toggle-sidebar">
+            <i class="fas fa-bars"></i>
+        </button>
+        <h1>Player IPTV</h1>
+        <button class="search-toggle" id="search-toggle">
+            <i class="fas fa-search"></i>
+        </button>
+    </header>
 
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>Pengaturan IPTV</h2>
+            <button class="close-sidebar" id="close-sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="sidebar-content">
+            <div class="input-group">
+                <label for="iptv-url">URL IPTV</label>
+                <input type="text" id="iptv-url" placeholder="Masukkan URL playlist M3U/M3U8">
+            </div>
+            
+            <div class="input-group">
+                <label for="iptv-file">File IPTV</label>
+                <input type="file" id="iptv-file" accept=".m3u,.m3u8,.mp4">
+                <div id="file-name" class="file-name"></div>
+            </div>
+            
+            <div class="input-group">
+                <label for="server-select">Server Default</label>
+                <select id="server-select">
+                    <option value="">Pilih Server</option>
+                    <option value="a">Server A (Lokal)</option>
+                    <option value="b">Server B (Lokal B)</option>
+                    <option value="c">Server C (Lokal C)</option>
+                </select>
+                <small class="help-text">Pilih server untuk memuat playlist otomatis</small>
+            </div>
+            
+            <div class="input-group">
+                <label for="category-filter">Filter Kategori</label>
+                <select id="category-filter">
+                    <option value="all">Semua Kategori</option>
+                </select>
+            </div>            
+            
+            <button class="btn btn-primary" id="load-playlist">
+                <i class="fas fa-download"></i> Muat Playlist
+            </button>
+            
+            <div class="favorites-management">
+                <h3>Kelola Favorit</h3>
+                <div class="favorites-buttons">
+                    <button class="btn btn-success" id="export-favorites">
+                        <i class="fas fa-download"></i> Export Favorit
+                    </button>
+                    <button class="btn btn-warning" id="import-favorites">
+                        <i class="fas fa-upload"></i> Import Favorit
+                    </button>
+                    <button class="btn btn-info" id="load-default-favorites">
+                        <i class="fas fa-star"></i> Favorit Default
+                    </button>
+                </div>
+                <input type="file" id="import-file" accept=".json" style="display: none;">
+            </div>
+            
+            <div class="danger-zone">
+                <button class="btn btn-danger" id="clear-all">
+                    <i class="fas fa-trash"></i> Hapus Semua Data
+                </button>
+                <p class="danger-warning">Aksi ini akan menghapus semua data termasuk URL, file, favorit, dan playlist tersimpan</p>                
+            </div>
+            
+            <div class="saved-playlists">
+                <h3>Playlist Tersimpan</h3>
+                <div id="saved-playlists-list" class="saved-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay untuk menutup sidebar -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Search Bar -->
+    <div class="search-container" id="search-container">
+        <input type="text" id="search-input" placeholder="Cari channel...">
+        <button class="btn-close-search" id="close-search">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Video Player -->
+        <div class="player-container">
+            <div class="video-container" id="video-container">
+                <video id="video-player" controls>
+                    Pilih channel untuk memulai
+                </video>
+                <button class="fullscreen-btn" id="fullscreen-btn">
+                    <i class="fas fa-expand"></i>
+                </button>
+            </div>
+            <div class="player-controls">
+                <div class="channel-info">
+                    <div class="channel-logo" id="current-channel-logo">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <div class="channel-details">
+                        <div id="current-channel-name">Pilih channel untuk memulai</div>
+                        <div id="current-channel-category">-</div>
+                    </div>
+                </div>
+                <button class="favorite-btn" id="favorite-btn">
+                    <i class="far fa-heart"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Favorites Shortcuts -->
+        <div class="favorites-container">
+            <h3 class="section-title">Favorit</h3>
+            <div class="favorites-grid" id="favorites-grid">
+                <div class="no-favorites">Belum ada channel favorit</div>
+            </div>
+        </div>
+
+        <!-- Channel List -->
+        <div class="channels-container">
+            <div class="channels-header">
+                <h3 class="section-title">Daftar Channel</h3>
+                <div class="channels-count" id="channels-count">0 channel</div>
+            </div>
+            <div class="channels-list" id="channels-list">
+                <div class="no-channels">Muat playlist untuk menampilkan channel</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://raw.githubusercontent.com/robingladys/tv/refs/heads/main/m.js"></script>
+</body>
+</html>
