@@ -55,7 +55,7 @@
       "name": "KompasTV",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/kompastv.png",
       "group": "LOKAL ID",
-      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h234/index.m3u8"
+      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h234/index.m3u8?app_type=web&userid=lite&chname=kompastv"
     },
     {
       "name": "METRO TV",
