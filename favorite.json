@@ -10,6 +10,18 @@
       "url": "http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8?app_type=web&userid=lite&chname=indosiar"
     },
     {
+      "name": "Trans TV",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/transtv.png",
+      "group": "LOKAL ID",
+      "url": "https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8"
+    },
+    {
+      "name": "Trans 7",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/trans7.png",
+      "group": "LOKAL ID",
+      "url": "https://video.detik.com/trans7/smil:trans7.smil/chunklist_w577694934_b744100_sleng.m3u8"
+    },
+    {
       "name": "SCTV",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/sctv.png",
       "group": "LOKAL ID",
