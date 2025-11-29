@@ -25,13 +25,13 @@
       "name": "MDTV",
       "logo": "https://iili.io/2Sg7qyF.png",
       "group": "LOKAL ID",
-      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h223/02.m3u8?app_type=web&userid=lite&chname=beritasatu"
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h223/02.m3u8?app_type=web&userid=lite&chname=mdtv"
     },  
     {
       "name": "BTV",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/btv.png",
       "group": "LOKAL ID",
-      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h210/02.m3u8"
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h210/02.m3u8?app_type=web&userid=lite&chname=btv"
     },
     {
       "name": "TV ONE",
@@ -61,7 +61,7 @@
       "name": "METRO TV",
       "logo": "https://iili.io/JV3xZtS.png",
       "group": "MOVIES",
-      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h12/index.m3u8"
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h12/index.m3u8?app_type=web&userid=lite&chname=metrotv"
     },    
     {
       "name": "NusantaraTV",
@@ -76,10 +76,10 @@
       "url": "https://wahyu1ptv.pages.dev/Moji-HD.m3u8"
     },
     {
-      "name": "RTV d",
+      "name": "RTV",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/rtv.png",
       "group": "LOKAL ID",
-      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h10/index.m3u8"
+      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h10/index.m3u8?app_type=web&userid=lite&chname=rtv"
     },
     {
       "name": "INSPIRA TV",
