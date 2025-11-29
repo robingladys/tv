@@ -7,13 +7,13 @@
       "name": "INDOSIAR",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/indosiar.png",
       "group": "LOKAL ID",
-      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h235/index.m3u8?app_type=web&userid=lite&chname=indosiar"
+      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8?app_type=web&userid=lite&chname=indosiar"
     },
     {
       "name": "SCTV",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/sctv.png",
       "group": "LOKAL ID",
-      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8?app_type=web&userid=lite&chname=sctv"
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8?app_type=web&userid=lite&chname=sctv"
     },
     {
       "name": "BERITA SATU",
@@ -25,19 +25,19 @@
       "name": "MDTV",
       "logo": "https://iili.io/2Sg7qyF.png",
       "group": "LOKAL ID",
-      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=mdtv"
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h223/02.m3u8?app_type=web&userid=lite&chname=mdtv"
     },  
     {
       "name": "BTV",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/btv.png",
       "group": "LOKAL ID",
-      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h210/index.m3u8?app_type=web&userid=lite&chname=btv"
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h210/02.m3u8?app_type=web&userid=lite&chname=btv"
     },
     {
       "name": "TV ONE",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/tvone.png",
       "group": "LOKAL ID",
-      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h40/index.m3u8?app_type=web&userid=lite&chname=tvone"
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h40/01.m3u8?app_type=web&userid=lite&chname=tvone"
     },
     {
       "name": "GARUDA TV",
@@ -55,13 +55,13 @@
       "name": "KompasTV",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/kompastv.png",
       "group": "LOKAL ID",
-      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h234/index.m3u8?app_type=web&userid=lite&chname=kompastv"
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h234/02.m3u8?app_type=web&userid=lite&chname=kompastv"
     },
     {
       "name": "METRO TV",
       "logo": "https://iili.io/JV3xZtS.png",
       "group": "LOKAL ID",
-      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h12/index.m3u8?app_type=web&userid=lite&chname=metrotv"
+      "url": "https://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8?app_type=web&userid=lite&chname=metrotv"
     },    
     {
       "name": "NusantaraTV",
@@ -79,7 +79,7 @@
       "name": "RTV",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/rtv.png",
       "group": "LOKAL ID",
-      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h10/index.m3u8?app_type=web&userid=lite&chname=rtv"
+      "url": "http://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8?app_type=web&userid=lite&chname=rtv"
     },
     {
       "name": "INSPIRA TV",
