@@ -16,6 +16,18 @@
       "url": "https://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8?app_type=web&userid=lite&chname=sctv"
     },
     {
+      "name": "TRANS TV",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/transtv.png",
+      "group": "LOKAL ID",
+      "url": "https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8"
+    },
+    {
+      "name": "TRANS 7",
+      "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/trans7.png",
+      "group": "LOKAL ID",
+      "url": "https://video.detik.com/trans7/smil:trans7.smil/chunklist_kamiselaluada_b744100_sleng.m3u8"
+    },    
+    {
       "name": "BERITA SATU",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/btv.png",
       "group": "LOKAL ID",
@@ -69,12 +81,6 @@
       "group": "LOKAL ID",
       "url": "https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8"
     },
-    {
-      "name": "TRANS 7",
-      "logo": "http://kamiselaluada.com/img/trans7.png",
-      "group": "LOKAL ID",
-      "url": "https://video.detik.com/trans7/smil:trans7.smil/chunklist_kamiselaluada_b744100_sleng.m3u8"
-    },    
     {
       "name": "MOJITV",
       "logo": "https://raw.githubusercontent.com/iplist-dev/Ch/refs/heads/main/moji.png",
